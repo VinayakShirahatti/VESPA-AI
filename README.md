@@ -60,16 +60,4 @@ Near real-time indexing
 
 Perfect for dynamic applications
 
-📦 Installation
-Option 1: Using Docker (Recommended for Beginners)
-docker run --detach --name vespa \
-  --hostname vespa-container \
-  --publish 8080:8080 \
-  vespaengine/vespa
 
-
-Visit:
-👉 http://localhost:8080
-
-Option 2: Install CLI
-curl -fsSL https://vespa-cli.cloud.vespa-apps.io/install.sh | sh
